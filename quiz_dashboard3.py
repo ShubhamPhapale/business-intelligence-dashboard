@@ -133,7 +133,7 @@ def main():
     
     # Sidebar controls
     st.sidebar.header("Dashboard Controls")
-    n = st.sidebar.slider("Number of records to show", 5, 50, 20)
+    n = st.sidebar.slider("Number of records to show", 1, 31, 20)
     
     # Calculate insights
     insights = calculate_insights(voter_df, correct_answers_df, n)
